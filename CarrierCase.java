@@ -1,8 +1,7 @@
 package com.mycompany.gun;
-
+// another extended class for Gun decorator pattern
 public class CarrierCase extends GunDecorator {
-	Gun weaponary;
-
+	Gun weaponary
 	public CarrierCase(Gun weaponary) {
 		this.weaponary = weaponary;
 	}
