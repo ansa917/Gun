@@ -1,6 +1,6 @@
 package com.mycompany.gun;
 
-// magzine class
+// updated class name from milk class to magzine class
 public class Magzine extends GunDecorator {
 	Gun weaponary;
  
