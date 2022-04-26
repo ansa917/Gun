@@ -1,4 +1,5 @@
 package com.mycompany.gun;
+/// updated class from beverage to silences
 
 public class silencer extends GunDecorator {
 	Gun weaponary;
