@@ -6,9 +6,11 @@ public class GameHero {
     private int ShootingPoint;
 
     private GameHero() {
+        // vector as hero
         System.out.println("Vector, the hero, has born!");
 
     }
+    //added instance
 
     public static GameHero getInstance() {
         if (uniqueInstance == null) {
