@@ -1,5 +1,5 @@
 package com.mycompany.gun;
-
+// created hero with singleton
 public class GameHero {
 
     private static GameHero uniqueInstance;
@@ -14,6 +14,7 @@ public class GameHero {
         if (uniqueInstance == null) {
             uniqueInstance = new GameHero();
         }
+        
         return uniqueInstance;
     }
 
