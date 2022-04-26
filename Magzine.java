@@ -1,5 +1,6 @@
 package com.mycompany.gun;
 
+// magzine class
 public class Magzine extends GunDecorator {
 	Gun weaponary;
  
