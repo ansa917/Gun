@@ -1,5 +1,6 @@
 package com.mycompany.gun;
 
+// updated class name
 public class Tommygun extends Gun {
   
 	public Tommygun() {
